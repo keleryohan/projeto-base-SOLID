@@ -1,10 +1,14 @@
 anotações SOLID/clean architeture
 
-Single responsability -> cada arquivo só faz uma coisa/tem apenas uma função\n
-Open closed principe -> nunca extender uma classe e a modificar (overwrite) por completo (menor importancia)\n
-Liskov substitution principle -> facilitar substituição de requerimentos\n
-Interface agregation principle -> evitar interfaces maiores. quebrar em interfaces mais 'especializadas'(menor importancia)\n
-Dependency inversion principle -> não depender de implementações, e sim de interfaces. associado ao princípio L\n
+Single responsability -> cada arquivo só faz uma coisa/tem apenas uma função
+
+Open closed principe -> nunca extender uma classe e a modificar (overwrite) por completo (menor importancia)
+
+Liskov substitution principle -> facilitar substituição de requerimentos
+
+Interface agregation principle -> evitar interfaces maiores. quebrar em interfaces mais 'especializadas'(menor importancia)
+
+Dependency inversion principle -> não depender de implementações, e sim de interfaces. associado ao princípio L
 
 
 estrutura base de pastas: controller | repository | model/entity | services/useCase
